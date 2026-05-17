@@ -1,0 +1,8 @@
+Segment,Customer_Count,Customer_Share_%,Total_Revenue,Revenue_Share_%,Avg_Order_Value,Avg_Distance_Km,Avg_Delivery_Min,Avg_Rating,Discount_Rate_%,Convenience_Score,Premium_Score,Retention_Priority,Upsell_Opportunity
+Lazy Local Buyer 1,144361,15.23,122158534.0,22.68,846.2,3.31,10.01,3.35,44.29,0.7394,0.6421,Medium,Loyalty Program
+Satisfied Loyal Customer,144553,15.25,105740853.5,19.63,731.5,10.16,15.72,3.86,18.58,0.4573,0.5118,High,Loyalty Program
+Discount Hunter 1,143868,15.18,88943528.5,16.52,618.23,6.19,14.91,2.84,100.0,0.5586,0.4789,Monitor,Discount Rationalization
+Lazy Local Buyer 2,172035,18.15,70146708.0,13.03,407.75,5.37,15.2,2.58,0.0,0.5428,0.3911,Medium,Loyalty Program
+Discount Hunter 2,127736,13.48,67007211.0,12.44,524.58,11.76,21.1,2.97,100.0,0.3091,0.35,Monitor,Discount Rationalization
+Long-Distance Dependent,170911,18.03,62685632.5,11.64,366.77,11.92,21.7,2.8,0.0,0.2709,0.2784,Monitor,Loyalty Program
+Lazy Local Buyer 3,44288,4.67,21863493.5,4.06,493.67,1.02,16.49,2.99,39.39,0.6602,0.406,Medium,Loyalty Program
