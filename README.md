@@ -20,9 +20,11 @@ The project analyzes over 1,000,000 raw orders from top quick commerce platforms
 - `quick_commerce_data_modified_cleaned.csv` (947,752 rows): Cleaned and pre-processed dataset used for modeling.
 - `Results/`: Directory containing generated outputs and clustering visualizations.
 - `report_charts/`: Visualizations including correlation heatmaps, boxplots, distance distributions, and dendrograms.
+- `dashboard.html`: Interactive HTML dashboard presenting key KPIs, charts, and actionable insights.
 - `business_insights_table.csv`: Detailed metrics, behaviors, and actionable recommendations for each identified customer segment.
 - `company_comparison_report.csv`: Performance and metric comparison across different quick commerce competitors.
 - `kpi_summary.csv`: High-level key performance indicators of the dataset.
+- `requirements.txt`: List of Python dependencies required to run the notebook.
 
 ## 📈 Key Performance Indicators (KPIs)
 Based on the cleaned dataset of **947,752 orders**:
@@ -65,3 +67,21 @@ Using K-Means Clustering (evaluated with Silhouette Score 0.1781) and advanced f
 1. **Focus on "Lazy Local Buyers"**: With a 30% combined share of customers representing a substantial revenue chunk, emphasizing hyper-local convenience over heavy discounting will maximize margins.
 2. **Rationalize Discounts**: Approximately 28% of the customer base are strictly "Discount Hunters". Transitioning them towards value-add services or placing conditions on discounts can prevent revenue leakage.
 3. **Targeted Loyalty Programs**: The "Satisfied Loyal Customer" segment contributes nearly 20% of the revenue but only 15% of the base. Expanding loyalty offerings to them provides the highest retention ROI.
+
+## 🚀 Installation & Usage
+To run the Jupyter Notebook locally and reproduce the analysis:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Devaguru11/Convenience-Driven-Customer-Segmentation-in-Quick-Commerce.git
+   cd Convenience-Driven-Customer-Segmentation-in-Quick-Commerce
+   ```
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Open and run the notebook:
+   ```bash
+   jupyter notebook Quick_Commerce_Customer_Segmentation.ipynb
+   ```
+
+To view the dashboard, simply open `dashboard.html` in any modern web browser.
